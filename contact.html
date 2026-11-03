@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Chuyu Zhang.">
+  <title>Chuyu Zhang, PhD | Contact</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/site.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Chuyu Zhang, PhD</a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="publications.html">Publications</a><a class="active" href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main class="page-main">
+    <section class="split-section contact-section">
+      <div class="section-heading"><p class="eyebrow">Get in touch</p><h1>Contact<br>Me</h1><p class="contact-intro">Feel free to get in touch. I'd love to hear from you.</p></div>
+      <div class="section-content">
+        <!-- Replace YOUR_FORMSPREE_ID with your Formspree form ID before publishing. -->
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+          <div class="form-row">
+            <label>Your name *<input type="text" name="name" autocomplete="name" required></label>
+            <label>Email *<input type="email" name="email" autocomplete="email" required></label>
+          </div>
+          <label>Subject<input type="text" name="subject"></label>
+          <label>Message *<textarea name="message" rows="7" required></textarea></label>
+          <button class="submit-button" type="submit">Send Message <span aria-hidden="true">↗</span></button>
+          <p class="form-note">The contact form will work after a Formspree form ID is added.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
